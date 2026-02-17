@@ -1,0 +1,18 @@
+{
+    "title": "Programming: Defining Functions",
+    "slug": "programming-defining-functions",
+    "description": "Defining custom functions in programming. Covers function parts, parameters vs arguments, return values, and calling custom functions.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "programming"
+    ],
+    "duration": 7,
+    "prerequisites": [
+        "python-variables",
+        "programming-calling-functions",
+        "programming-comments"
+    ],
+    "related": []
+}

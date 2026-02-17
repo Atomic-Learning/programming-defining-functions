@@ -1,0 +1,67 @@
+
+<p>Almost all computing languages allow you to define your own functions.</p>
+
+<h2>Why Define Functions?</h2>
+
+<p>Defining functions helps you organize code and avoid repetition. You write the steps once and reuse them whenever needed.</p>
+
+<h2>Parts of a Function</h2>
+
+<p>A function typically has:</p>
+
+<ul>
+<li><strong>A name:</strong> How you refer to and call the function</li>
+<li><strong>Parameters:</strong> Input values the function accepts (optional)</li>
+<li><strong>A body:</strong> The code that runs when the function is called</li>
+<li><strong>A return value:</strong> The result the function produces (optional)</li>
+</ul>
+
+<h2>Defining a Function</h2>
+
+<p>While exact syntax varies by language, the general pattern is:</p>
+
+<pre><code class="pseudocode">
+function function_name(parameter1, parameter2):
+    # Function body (the steps to perform)
+    result = do_something(parameter1, parameter2)
+    return result
+</code></pre>
+
+<h2>Calling a Custom Function</h2>
+
+<p>After defining a function, you call it with arguments (actual values), just like an intrinsic function:</p>
+
+<pre><code class="pseudocode">
+value = function_name(argument1, argument2)
+</code></pre>
+
+<h2>Parameters vs. Arguments</h2>
+
+<p><strong>Parameters</strong> are the placeholders in the function definition. <strong>Arguments</strong> are the values you pass when calling the function:</p>
+
+<pre><code class="pseudocode">
+# Define a function with parameters x and y
+function add(x, y):
+    return x + y
+
+# Call the function with arguments 5 and 3
+result = add(5, 3)
+</code></pre>
+
+<p>In this example, <code>x</code> and <code>y</code> are parameters, and <code>5</code> and <code>3</code> are arguments. Inside the function call, <code>x</code> receives the value 5 and <code>y</code> receives the value 3.</p>
+
+<h2>Return Values</h2>
+
+<p>A function can return a value, but it doesn't have to. If a function doesn't return anything, it may be called for its side effects (like printing output or modifying data in a file).</p>
+
+<h2>Why Functions Matter</h2>
+
+<p>Functions are important for several reasons:</p>
+
+<ul>
+<li><strong>Reusability:</strong> Write code once, use it many times</li>
+<li><strong>Organization:</strong> Break complex problems into smaller, manageable pieces</li>
+<li><strong>Readability:</strong> Named functions make code self-documenting</li>
+<li><strong>Maintainability:</strong> Fix a bug in one place rather than throughout your code</li>
+<li><strong>Testing:</strong> Test individual functions independently</li>
+</ul>
